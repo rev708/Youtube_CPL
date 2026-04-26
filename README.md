@@ -19,12 +19,15 @@ YT Panel is a small Windows desktop controller for YouTube Music. It opens a ded
 - Uses a separate Chrome profile so your app session can stay signed in
 
 
-## Download (Direct)
+## Download
 
-Download the latest Windows executable package:
+<a href="https://file.hyx.kr/public.php/dav/files/spLj9ZyGdTHkpPd">
+  <img alt="Download for Windows" src="https://img.shields.io/badge/Download-Windows_EXE-111111?style=for-the-badge&logo=windows&logoColor=white" />
+</a>
 
-https://file.hyx.kr/public.php/dav/files/spLj9ZyGdTHkpPd
+Latest Windows executable package. Download, extract, and run `yt_panel.exe`.
 
+Direct link: [file.hyx.kr](https://file.hyx.kr/public.php/dav/files/spLj9ZyGdTHkpPd)
 
 
 ## Controls
