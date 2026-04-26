@@ -1,4 +1,4 @@
-# Youtube ControlPanel
+# Youtube Control Panel
 
 <img width="460" height="300" alt="image" src="https://github.com/user-attachments/assets/768b136d-397c-4332-9071-972cd5fec6ff" />
 
@@ -17,6 +17,16 @@ YT Panel is a small Windows desktop controller for YouTube Music. It opens a ded
 - `Ctrl + Mouse Wheel` changes panel opacity
 - `Pin` toggles always-on-top mode
 - Uses a separate Chrome profile so your app session can stay signed in
+
+
+## Download
+
+Download the latest Windows executable package:
+
+[Youtube_CPL-win-x64.zip](dist/Youtube_CPL-win-x64.zip)
+
+Extract the zip file and run `yt_panel.exe`.
+
 
 ## Controls
 
@@ -38,13 +48,6 @@ YT Panel is a small Windows desktop controller for YouTube Music. It opens a ded
 - Google Chrome
 - .NET 10 SDK
 
-## Download
-
-Download the latest Windows executable package:
-
-[Youtube_CPL-win-x64.zip](dist/Youtube_CPL-win-x64.zip)
-
-Extract the zip file and run `yt_panel.exe`.
 
 ## Run
 
