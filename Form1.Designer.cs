@@ -200,7 +200,7 @@ namespace yt_panel
             MinimumSize = new Size(440, 260);
             Name = "Form1";
             Opacity = 0.96D;
-            ShowIcon = false;
+            ShowIcon = true;
             StartPosition = FormStartPosition.CenterScreen;
             Text = "YT Panel";
             TopMost = true;
