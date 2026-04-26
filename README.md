@@ -36,6 +36,14 @@ YT Panel is a small Windows desktop controller for YouTube Music. It opens a ded
 - Google Chrome
 - .NET 10 SDK
 
+## Download
+
+Download the latest Windows executable package:
+
+[Youtube_CPL-win-x64.zip](dist/Youtube_CPL-win-x64.zip)
+
+Extract the zip file and run `yt_panel.exe`.
+
 ## Run
 
 ```powershell
@@ -57,3 +65,9 @@ The app launches Chrome with a dedicated remote debugging port:
 ```
 
 It then finds the active YouTube Music tab, reads media session information, and dispatches playback or volume commands to that tab. The Chrome profile is stored separately from your normal Chrome profile, so signing in once keeps the YouTube Music session available for later app launches.
+
+## Contact
+
+Questions, feedback, and feature requests:
+
+Telegram : @Rev708
