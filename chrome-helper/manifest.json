@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "YT Panel Helper",
+  "version": "0.1.0",
+  "description": "Connects YouTube pages to the local YT Panel app.",
+  "permissions": [],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "http://127.0.0.1:47821/*",
+    "http://localhost:47821/*",
+    "https://www.youtube.com/*",
+    "https://music.youtube.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.youtube.com/*",
+        "https://music.youtube.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}

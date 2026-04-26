@@ -1,0 +1,10 @@
+bin/
+obj/
+.vs/
+.chrome-test-profile/
+chrome-helper.log
+*.user
+*.suo
+*.cache
+*.log
+Youtube_CPL_upload.zip
