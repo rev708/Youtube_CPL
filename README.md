@@ -1,6 +1,8 @@
 # YT Panel
 
-![YT Panel preview](assets/preview.png)
+<img width="234" height="149" alt="image" src="https://github.com/user-attachments/assets/768b136d-397c-4332-9071-972cd5fec6ff" />
+
+
 
 YT Panel is a small Windows desktop controller for YouTube Music. It opens a dedicated Chrome profile, attaches to YouTube Music through the Chrome DevTools Protocol, and gives you a compact always-on-top panel for playback and volume control.
 
