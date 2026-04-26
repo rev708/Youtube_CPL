@@ -1,4 +1,4 @@
-# Youtube ControlPanel
+# Youtube Control Panel
 
 <img width="460" height="300" alt="image" src="https://github.com/user-attachments/assets/768b136d-397c-4332-9071-972cd5fec6ff" />
 
