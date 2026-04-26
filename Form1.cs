@@ -27,12 +27,23 @@ public partial class Form1 : Form, IMessageFilter
     public Form1()
     {
         InitializeComponent();
+        ApplyAppIcon();
         BuildInterface();
         Application.AddMessageFilter(this);
 
         refreshTimer.Interval = 5000;
         refreshTimer.Tick += async (_, _) => await RefreshNowPlayingAsync();
         refreshTimer.Start();
+    }
+
+    private void ApplyAppIcon()
+    {
+        var iconPath = Path.Combine(AppContext.BaseDirectory, "settings-sliders_3917103.ico");
+        if (File.Exists(iconPath))
+        {
+            Icon = new Icon(iconPath);
+            ShowIcon = true;
+        }
     }
 
     [DllImport("user32.dll")]

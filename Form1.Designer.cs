@@ -18,6 +18,7 @@ namespace yt_panel
 
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             header = new Panel();
             statusLabel = new Label();
             topMostButton = new Button();
@@ -195,6 +196,7 @@ namespace yt_panel
             Controls.Add(nextButton);
             Controls.Add(volumeSlider);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MinimumSize = new Size(440, 260);
             Name = "Form1";
             Opacity = 0.96D;
